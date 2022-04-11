@@ -58,15 +58,26 @@ section {
     align-items: center;
     margin: 50px 150px;
 }
-.text-xdd {
-    font-style: bold;
+
+.dad-article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.text-xdd {
+    font-weight: bold;
+    
+
+}
+
 
 .links ul{
     display: flex;
     flex-direction: row;
     
 }
+
 
 li {
     padding: 10px;
@@ -81,4 +92,94 @@ li {
 .links {
     display: flex;
     margin-left: auto;
+}
+
+.dad-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 125px;
+    padding-top: 35px;
+    padding-left: 5px;
+}
+
+.herotop {
+    width: 500px;
+    height: 250px;
+}
+
+.img {
+    display: flex;
+    width: 500px;
+    height: 250px;
+    background-color: #3b4147;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.boton-sign-up-1 {
+    padding: 7px 20px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.mascapit {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.cajacaja {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.cajavacia1, .cajavacia2, .cajavacia3, .cajavacia4 {
+    width: 130px;
+    height: 130px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.cajadelacaja {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 100px;
+}
+
+
+
+.text {
+    display: flex;
+    width: 150px;
+    height: 100px;
+}
+
+
+.papadelp {
+    background-color: #3882F6 ;
+    display: flex;
+}
+
+.papadelp p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 50px 50px;
+    
+}
+
+.boton-sign-up-2 {
+    padding: 7px 20px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
 }
