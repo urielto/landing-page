@@ -1,0 +1,84 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header-log {
+    color: #F9FAF8;
+    font-size: 24px;
+    justify-content: baseline;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+div h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+header, .bigmom-cajas{
+    font-size: 18x;
+    color: #E5E7EB;
+}
+
+footer {
+    font-size: 18x;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+section {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+.text-xd {
+    font-size: 36px;
+    font-style:italic;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 150px;
+}
+.text-xdd {
+    font-style: bold;
+}
+
+.links ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+li {
+    padding: 10px;
+    margin: 10px;
+}
+
+.papadelheader {
+    display: flex;
+    
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+}
