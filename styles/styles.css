@@ -20,7 +20,7 @@ a {
 .header-log {
     color: #F9FAF8;
     font-size: 24px;
-    justify-content: baseline;
+    justify-content:baseline;
     margin-top: 3px;
     padding-left: 10px;
 }
@@ -32,7 +32,7 @@ div h1 {
 }
 
 header, .bigmom-cajas{
-    font-size: 18x;
+    font-size: 18px;
     color: #E5E7EB;
 }
 
@@ -59,15 +59,11 @@ section {
     margin: 50px 150px;
 }
 
-.dad-article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .text-xdd {
     font-weight: bold;
-    
+    text-align: right;
+    padding: 10px;
 
 }
 
@@ -167,19 +163,31 @@ li {
 .papadelp {
     background-color: #3882F6 ;
     display: flex;
+    width: 800px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px; 
 }
 
 .papadelp p {
     color: #E5E7EB;
     font-size: 18px;
-    margin: 50px 50px;
+    padding: 40px 40px;
+    
     
 }
 
-.boton-sign-up-2 {
-    padding: 7px 20px;
+.segundoboton {
+    height: 37px;
+    width: 93px;
+    margin-top: 62px;
+    border-color:#E5E7EB ;
     border-radius: 10px;
-    background-color: #3882F6;
-    color: #E5E7EB;
-    border-color: #E5E7EB;
+    background-color: rgb(56, 130, 246);
+    color: rgb(229, 231, 235);
 }
